@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #B1F0F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+   
+  }
+  
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .details-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .details-content {
+    display: flex;
+    height: 320px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   clip-path: circle();
+    padding: 10px;
+    border-radius: 18px;
+  
+    padding: 15px;
+    transition: 1s ease;
+   
+    background-image: url(https://img.freepik.com/free-vector/digital-money-indian-rupee-futuristic-circuit-technology-background_1017-41096.jpg?ga=GA1.1.28523301.1734073089&semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .details-content h2 {
+    color: #000;
+    line-height: 1.2;
+    font-weight: 500;
+    font-family: popins, sans-serif;
+   
+  }
+  
+  .view {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #BFF6C3;
+  
+    border: 2px solid #fff;
+    margin: 10px;
+    transition: 1s ease;
+  }
+  .details-content:hover {
+    transform: translateY(-10px); 
+    transition: transform 0.3s ease;
+  
+  }
+button:hover {
+    transform: translateY(-5px); 
+    background-color: #00b52a;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    color: white;
+  
+}
+
+
+
+
+
+
